@@ -93,3 +93,7 @@ def get(seed=0, fixed_order=False, pc_valid=0.1):
     return data, taskcla, size
 
 ########################################################################################################################
+data, taskcla, size = get()
+print(data.keys())  # نمایش کلیدهای دیکشنری داده‌ها
+print(taskcla)  # نمایش تسک‌ها
+print(size)  # نمایش اندازه تصاویر
